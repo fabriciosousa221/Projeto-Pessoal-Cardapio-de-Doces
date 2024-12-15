@@ -15,7 +15,7 @@ const Cardapio = () => {
 
   return (
     <div className="cardapio">
-      <h2>Cardápio All Black de Doces</h2>
+      <h2>Cardápio de Doces</h2>
       <div className="lista-doces">
         {doces.map((doce) => (
           <DoceItem key={doce.id} doce={doce} />
